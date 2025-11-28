@@ -32,6 +32,9 @@ h1 {
   font-size: 18px;
   margin-bottom: 5px;
 }
+header {
+  margin-bottom: 25px;
+}
 
 /* sidebar */
 .sidebar {
@@ -72,4 +75,25 @@ img[src="./img/logo.webp"] {
   border-radius: 50%;
   min-width: 18px;
   min-height: 18px;
+}
+/* chat section */
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  color: #82828e;
+}
+
+.profile-picture {
+  display: inline;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.profile-name {
+  line-height: 40px;
+  vertical-align: middle;
 }
