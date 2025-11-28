@@ -57,7 +57,7 @@ img[src="./img/logo.webp"] {
 }
 .bar {
   background-color: #363a43;
-  padding: 1px 15px;
+  padding: 4px 5px;
   border-radius: 15px;
   margin: 0 auto;
   text-align: center;
@@ -66,4 +66,10 @@ img[src="./img/logo.webp"] {
 .add.bar {
   font-size: 14px;
   flex-grow: 1;
+}
+
+.search.bar {
+  border-radius: 50%;
+  min-width: 18px;
+  min-height: 18px;
 }
