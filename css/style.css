@@ -13,19 +13,18 @@ img {
 body {
   background-color: #141318;
   color: white;
-
   margin-top: 10px;
 }
 
 main {
-  background-color: #1c1d21;
   display: flex;
-  padding: 20px 20px;
-  border-top-left-radius: 10px;
 }
 
 .main-section {
+  border-top-left-radius: 10px;
+  background-color: #1c1d21;
   flex-grow: 1;
+  padding: 20px 20px;
 }
 
 ul {
@@ -38,6 +37,10 @@ h1 {
 }
 header {
   margin-bottom: 25px;
+}
+
+footer {
+  background-color: #2d2d35;
 }
 
 /* sidebar */
@@ -112,4 +115,14 @@ img[src="./img/logo.webp"] {
 
 .chat-text {
   font-size: 12px;
+}
+
+/* footer */
+
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 1 0;
+  height: 60px;
 }
