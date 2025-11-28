@@ -10,20 +10,44 @@ img {
   width: 100%;
 }
 
+body {
+  background-color: #141318;
+  color: white;
+  display: flex;
+  margin-top: 10px;
+}
+
+main {
+  background-color: #1c1d21;
+  flex-grow: 1;
+  padding: 20px 20px;
+  border-top-left-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 18px;
+}
+
 /* sidebar */
 .sidebar {
   width: 13%;
-  padding: 10px 10px;
+  padding: 0px 10px;
   background-color: #141318;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .sidebar img {
   border-radius: 50%;
+  padding: 6px 0;
 }
 
 img[src="./img/logo.webp"] {
   border-radius: 0%;
+}
+
+/* header */
+header {
 }
