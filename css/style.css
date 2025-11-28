@@ -85,6 +85,11 @@ img[src="./img/logo.webp"] {
   color: #82828e;
 }
 
+.profile {
+  display: flex;
+  gap: 9px;
+}
+
 .profile-picture {
   display: inline;
   height: 40px;
@@ -94,6 +99,13 @@ img[src="./img/logo.webp"] {
 }
 
 .profile-name {
-  line-height: 40px;
-  vertical-align: middle;
+}
+
+.time {
+  margin-left: auto;
+  font-size: 12px;
+}
+
+.chat-text {
+  font-size: 12px;
 }
