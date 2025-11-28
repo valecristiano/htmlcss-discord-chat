@@ -30,6 +30,7 @@ ul {
 
 h1 {
   font-size: 18px;
+  margin-bottom: 5px;
 }
 
 /* sidebar */
@@ -49,5 +50,20 @@ img[src="./img/logo.webp"] {
 }
 
 /* header */
-header {
+
+.friends {
+  display: flex;
+  gap: 10px;
+}
+.bar {
+  background-color: #363a43;
+  padding: 1px 15px;
+  border-radius: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.add.bar {
+  font-size: 14px;
+  flex-grow: 1;
 }
