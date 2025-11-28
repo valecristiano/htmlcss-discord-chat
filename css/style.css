@@ -1,0 +1,29 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* sidebar */
+.sidebar {
+  width: 13%;
+  padding: 10px 10px;
+  background-color: #141318;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar img {
+  border-radius: 50%;
+}
+
+img[src="./img/logo.webp"] {
+  border-radius: 0%;
+}
