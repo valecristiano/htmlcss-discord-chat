@@ -18,13 +18,15 @@ body {
 
 main {
   display: flex;
+  height: calc(100vh - 20px);
+  overflow: auto;
 }
 
 .main-section {
   border-top-left-radius: 10px;
   background-color: #1c1d21;
   flex-grow: 1;
-  padding: 20px 20px;
+  padding: 20px 10px;
 }
 
 ul {
@@ -95,6 +97,12 @@ img[src="./img/logo.webp"] {
 .profile {
   display: flex;
   gap: 9px;
+  padding: 10px 5px;
+  border-radius: 10px;
+}
+
+.profile:hover {
+  background-color: #2d2d35;
 }
 
 .profile-picture {
@@ -103,9 +111,6 @@ img[src="./img/logo.webp"] {
   width: 40px;
   vertical-align: middle;
   border-radius: 50%;
-}
-
-.profile-name {
 }
 
 .time {
