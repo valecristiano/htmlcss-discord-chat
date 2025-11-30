@@ -19,7 +19,7 @@ body {
 main {
   display: flex;
   height: calc(100vh - 20px);
-  overflow: auto;
+  overflow: hidden;
 }
 
 .main-section {
@@ -27,6 +27,7 @@ main {
   background-color: #1c1d21;
   flex-grow: 1;
   padding: 20px 10px;
+  overflow: auto;
 }
 
 ul {
